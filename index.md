@@ -30,7 +30,4 @@ good afternoon
 good night
 ```
 
-Here's a pic of Joe hehe
-![Joe](a.png)
-
 
