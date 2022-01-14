@@ -1,11 +1,13 @@
 *hello world!*
 
+### [Lab Report 1](https://github.com/pandrew99/cse15l-lab-reports/blob/main/lab-report-1-week-2.md)
+
 **cool**
 
 # hi
 ## hello
 
-[link](https://pandrew99.github.io/cse15l-lab-reports/index.html)
+
 ![cute dog](https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*)
 
 > this is a fancy quote
@@ -27,5 +29,8 @@ good morning
 good afternoon
 good night
 ```
+
+Here's a pic of Joe hehe
+![Joe](a.png)
 
 
