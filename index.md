@@ -1,6 +1,6 @@
 *hello world!*
 
-### [Lab Report 1](https://github.com/pandrew99/cse15l-lab-reports/blob/main/lab-report-1-week-2.md)
+### [Lab Report 1](https://github.com/pandrew99/cse15l-lab-reports/blob/main/lab-report-1-week-2.html)
 
 **cool**
 

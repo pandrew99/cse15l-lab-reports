@@ -9,6 +9,7 @@
 ## 2. Remotely Connecting
 - Lookup your UCSD account info [here](https://sdacs.ucsd.edu/~icc/index.php). 
 - Enter your credentials, and then find your cse15l account info under `Additional Accounts` which looks like with `cs15lwi22amm` with `wi22` replaced by the term you're taking the course, and `amm` with your specific username. ![Account lookup](AccountLookup.png)
+- Then, you have to reset your password by going to the `Change Your Password` hyperlink. Enter your current password, and a new, complicated password following the guidelines on the website. When you're at the last field to `confirm password` press enter on your keyboard. If you get to a screen that says success! or a blank screen, your password was successfully changed. You will use that usernmae and password in the following steps. 
 - Next, open a new terminal by the menu bar - terminal - new terminal. Run the command ```ssh cs15lwi22zz@ieng6.ucsd.edu```. Say yes that you agree, enter your password, and now your connected to a computer in the CSE basement! 
 ## 3. Trying Some Commands
 - Now, you're able to run some commands from the terminal that run on the computer in the basement! 
@@ -37,7 +38,8 @@
 - Now you're good! You don't have to enter your password every time :)![keys](keys.png)
 ## 6. Optimizing Remote Running
 - To make remote running on the server, there are several tips and tricks to optimize your workflow and efficiency
-- You can ssh onto the remote computer, and put commands after the ssh in "" to run the command, and then immediately exit the server
+- You can ssh onto the remote computer, and put commands after the ssh in "" to run the command, and then immediately exit the server ![quotes](quotes.png)
 - You can run multiple commands at the same time by using ;
-- Here's a pic of Joe hehe
+- Finally, here's a pic of Joe! 
 ![Joe](a.png)
+- Thanks for following along and hope this tutorial was helpful! Have a nice day :)
