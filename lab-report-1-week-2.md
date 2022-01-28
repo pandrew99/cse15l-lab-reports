@@ -35,12 +35,13 @@
 - Press enter when it says what file to save the key, as well as the passphrase and passphrase again to make it as easy as possible. 
 - Then `ssh cs15lwi22zz@ieng6.ucsd.edu` again, enter your password, and type in the command `mkdir .ssh`. Afterwards, you can logout by typing `exit` or `Control D`.
 - Then, type in the command `scp /Users/andrewpan/.ssh/id_rsa.pub cs15lwi22amm@ieng6.ucsd.edu:~/.ssh/authorized_keys` with andrewpan replaced with your username on your computer, as well as the username for your account. Enter your password. 
-- Then try ssh'ing again, `ssh cs15lwizzamm@ieng6.ucsd.edu`
+- Then try ssh'ing again, `ssh cs15lwi22amm@ieng6.ucsd.edu`
 - Now you're good! You don't have to enter your password every time :)![keys](keys.png)
 ## 6. Optimizing Remote Running
 - To make remote running faster on the server, there are several tips and tricks to optimize your workflow and efficiency.
-- You can ssh onto the remote computer, and put commands after the ssh in "" to run the command, and then immediately exit the server. ![quotes](quotes.png)
-- You can run multiple commands at the same time by using ;
+- For example, you can type the command: `ssh cs15lwi22amm@ieng6.ucsd.edu "ls"`, which logs into the remote computer, lists the home directory on the server, and then immediately exits the server. Compared to typing `cs15lwi22amm@ieng6.ucsd.edu`, `ls`, and then `exit` in 3 separate commands, doing it in one command saves 2 keystrokes -- but more importantly, saves 10 seconds of time. Every second definitely adds up especially if you're typing out a lot of commands! ![quotes](quotes.png)
+- You can continually use the `up` arrow key on your keyboard to get previous commands that you ran. This is especially crucial when you're debugging your program and you need to use the same commands to compile and execute your code. If you have `javac` and `java` as your last 2 commands, it only uses 6 keystrokes (4 ups, 2 enters) total to use the  `up` arrow key rather at least 20 keystrokes manually typing the commands again, and saving 12 seconds in my testing. 
+- You can run multiple commands at the same time by using `;` like `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`. While typing this command instead of 3 separate commands the first time doesn't save keystrokes, if you combine it with using the `up` arrow key in the previous suggestion, it'll only require 2 keystrokes (up and enter) to compile and run your code, saving even more time.
 - Finally, here's a pic of Joe! 
 ![Joe](a.png)
 - Thanks for following along and hope this tutorial was helpful! Have a nice day :)
