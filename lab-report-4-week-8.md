@@ -20,7 +20,7 @@
 - My Implementation Output![mine](mysnippet2.png)
 - Reviewed Implementation Output![theirs](theirsnippet2.png)
 
-### Snippet 3
+## Snippet 3
 - Expected Output: 
 `[https://ucsd-cse15l-w22.github.io/]`
 - JUnit Test![JUnit Test](testsnippet3.png)
@@ -34,7 +34,7 @@
 - Specifically, you could have conditionals that check for where the backticks are to determine if the link is valid. If the backticks are within the () or [], then the link is valid. If they're like the first line in snippet 1 where there's a backtick before the [ and before the ] so that the brackets don't finish before the `, then the link isn't valid. 
 2. 
 - Accounting for snippet 2 and related cases with nested parentheses, brackets, and escaped brackets will probably involve more than 10 lines of code. 
-- In lecture last week, Joe was demoing some of the these scanrios and showed GitHub co-pilot and it took more than 10 lines of code. 
+- In lecture last week, Joe was demoing some of the these scenarios and showed GitHub co-pilot and it took more than 10 lines of code. 
 - It's kinda complicated because you have to know which parenthesis/bracket is part of the link and which part is part of the style for formatting the link. 
 - In addition, there could be more ( or more ) within the valid link so there would be a different amount of ( and ), which we would also have to account for. 
 3. 
