@@ -33,9 +33,7 @@
 ### Files and Outputs
 - 201.md: 
 ```
-[foo]: <bar>(baz)
-
-[foo]
+[foo]: <bar>(baz) [foo]
 ```
 - Joe's Implementation Output![Joe](201mdjoe.png)
 - My Implementation Output![My](201mdmine.png)
