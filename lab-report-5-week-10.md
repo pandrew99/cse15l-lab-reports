@@ -21,7 +21,7 @@
 `[/f%C3%B6%C3%B6]`
 ### Neither Implementation is Correct
 - Joe's provided implementation doesn't detect that it's a link and produces an empty list, while my implementation detects the link, but includes extra characters not technically part of the link itself. 
-- Since my implmentation is closer to the expected output, I will discuss the bug in mine. 
+- Since my implementation is closer to the expected output, I will discuss the bug in mine. 
 - I learned through Commonmark's [website](https://commonmark.org/help/tutorial/07-links.html) that the text within the "" after the actual link within the parenthesis is the title of the website, which is optional.
 - However, 32.md tests this functionality and expects just the link itself to be the link. 
 - __The Bug:__ my implementation currently detects everything within the () as the link, but doesn't detect that it needs to stop at the "" -- the title of the website. 
